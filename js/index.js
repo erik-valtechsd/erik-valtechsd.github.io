@@ -35,6 +35,7 @@ function permission() {
     .catch(console.error);
   console.log("draw curve...");
 }
+console.log("ok");
 
 function handleMotionEvent(event) {
   var x = event.accelerationIncludingGravity.x;
