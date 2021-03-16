@@ -1,42 +1,18 @@
 <!doctype html>
 <html>
-  <style>
-    .block {
-      display: block;
-      width: 100%;
-      height: 10%;
-      border: none;
-      background-color: #4CAF50;
-      color: white;
-      padding: 14px 28px;
-      font-size: 32px;
-      cursor: pointer;
-      text-align: center;
-    }
-
-    .block:hover {
-      background-color: #ddd;
-      color: black;
-    }
-  </style>
-
-
 
   <head>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
   </head>
 
   <body>
-    <button class="block" id="request">Start</button>
+    <div id="overlay">
+      <button id="startButton">Start</button>
+    </div>
 
-    <a-scene>
-      <a-sphere position="0 1.25 -5" radius="2.25" color="#212121"></a-sphere>
-      <a-sky color="#02006c"></a-sky>
-    </a-scene>
-    <div class="ui-container">
-      <div id="ui-slide">welcome friend, <br>you have arrived to motionlab</div>
+    <div class="ui-container" id="ui-display">
+      <div id="ui-slide">
+      </div>
       <div id="ui-image"></div>
     </div>
   </body>
