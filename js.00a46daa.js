@@ -42377,10 +42377,10 @@ function init() {
   var slide = document.getElementById("ui-slide-text");
   var element = document.getElementById("ui-display");
   element.style.display = "flex";
-  addNewSlide("welcome to Future Studio experiments");
+  addNewSlide("welcome to Future Studio motionlab");
   addNewSlide("soccer kick simulator", 4000);
-  addNewSlide("to play, place phone in your front pocket", 8000);
-  addNewSlide("wait for the whistle and then kick!", 12000);
+  addNewSlide("when ready press the start button", 8000);
+  addNewSlide("place phone in your front pocket and then kick!", 12000);
   addReadyButton(14250);
   window.setTimeout(function () {
     element.remove();
