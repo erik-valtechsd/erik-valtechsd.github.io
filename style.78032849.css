@@ -45,7 +45,7 @@
  }
 
  #ui-image{
-  background-image: url("/leg.ce5cd030.png");
+  /* background-image: url("../images/leg.png"); */
   object-fit: cover;
  }
 
@@ -149,7 +149,19 @@
       cursor: pointer;
       font-size: 44px;
     }
+    #score {
+      background: transparent;
+      border: 0;
+      border: 1px solid rgb(255, 255, 255);
+      border-radius: 4px;
+      color: #ffffff;
+      padding: 0.666em 2em;
+      text-transform: uppercase;
+      cursor: pointer;
+      font-size: 44px;
+    }
   
+
   #notSupported {
     width: 50%;
     margin: auto;
